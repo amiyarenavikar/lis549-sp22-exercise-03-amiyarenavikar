@@ -23,3 +23,17 @@ img{
     height: 100px;
     width: 100px;
 }
+
+th, tr {
+    padding: 0.5em;
+    border-bottom: 1px solid #d3d3d3;
+    background-color: #d3d3d3;
+}
+
+.co {
+    background-color: #eee;
+}
+
+tr:hover {
+    background-color: pink;
+  }
