@@ -35,6 +35,6 @@ rect {
     opacity: 0;
 }
 
-path:active {
+path:hover {
     stroke: none;
 }
