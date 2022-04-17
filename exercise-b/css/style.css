@@ -24,7 +24,7 @@ path {
 #interactive {
     fill: #c0c0c0;
     stroke: #bd250d;
-    width: 4px;
+    stroke-width: 4px;
 }
 
 #interactive:hover  {
@@ -35,6 +35,6 @@ rect {
     opacity: 0;
 }
 
-path:hover {
+path:hover, path:active, path:visited {
     stroke: none;
 }
